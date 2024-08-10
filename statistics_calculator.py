@@ -13,6 +13,15 @@ def calcular_promedio(datos):
         return 0
 
 def calcular_mediana(datos):
+
+    """Calcula mediana de una lista de datos 
+    Params:
+       datos (list): lista de datos
+    Returns 
+        entero con la mediana
+     """
+
+
     # Implementar lógica para calcular la mediana
     if len(datos) % 2 == 0:
         mediana1 = datos[(len(datos) // 2) - 1]
