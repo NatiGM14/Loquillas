@@ -1,6 +1,10 @@
 def calcular_promedio(datos):
     # Implementar lógica para calcular el promedio
-    pass
+   def calcular_promedio(datos):
+    if type(datos) is list and len(datos) > 0:
+        return sum(datos) / len(datos)
+    else:
+        return 0
 
 def calcular_mediana(datos):
     # Implementar lógica para calcular la mediana
