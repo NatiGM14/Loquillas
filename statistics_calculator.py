@@ -1,4 +1,10 @@
 def calcular_promedio(datos):
+    """Calcula promedio de una lista de datos 
+    Params:
+       datos (list): lista de datos
+    Returns 
+        entero con el promedio
+     """
     # Implementar lógica para calcular el promedio
    def calcular_promedio(datos):
     if type(datos) is list and len(datos) > 0:
